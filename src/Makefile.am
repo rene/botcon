@@ -1,0 +1,6 @@
+AM_CPPFLAGS= -Wall $(GLIB_CFLAGS) $(GTHREAD_CFLAGS) $(LOUDMOUTH_CFLAGS)
+
+bin_PROGRAMS = botcon
+botcon_SOURCES = botcon.c control.c xmpp.c
+botcon_LDFLAGS=$(LOUDMOUTH_LIBS) $(GLIB_LIBS) $(GTHREAD_LIBS)
+

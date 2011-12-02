@@ -1,0 +1,45 @@
+Botcon - instant message bot with machine remote control
+========================================================
+
+ABOUT:
+======
+
+Botcon allows you to execute a shell remotely through a xmmp connection. Using a
+common xmpp server account, you can add the bot as your friend and send commands
+to him that will be by passed to a shell on the machine that Botcon is running.
+
+Before you can access the shell, you need to make login inside the bot, sending
+the follow command:
+
+	#login <key>
+
+Where <key> is the access key (password) provided as a argument of Botcon. For
+more information just type:
+
+	botcon --help
+
+
+HOW TO INSTALL:
+===============
+
+	./configure
+	make
+	make install
+
+
+NOTES:
+======
+
+This is just a proof of concept. Botcon it's really in a alpha version and 
+should not be used in a production system, and never as a "ssh" like to make remote
+control due security issues.
+
+Botcon it's still unsecure and unstable. Please, use just for tests and for
+education purposes.
+
+
+BUG REPORTS:
+============
+
+Please, report to: rene@renesp.com.br
+
