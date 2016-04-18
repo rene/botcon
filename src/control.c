@@ -106,7 +106,7 @@ char *proccessMessage(const char *user, const char *msg)
 			return(m_ans->str);
 		}
 	} else {
-		m_ans = g_string_append(m_ans, "Please, send #help to see commands available.");
+		m_ans = g_string_append(m_ans, "Please, send to me #help to see commands available.");
 	}
 
 	return(m_ans->str);
